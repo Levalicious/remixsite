@@ -60,4 +60,4 @@ jobs:
           git config user.email "dependabot-fix@example.com"
           git add yarn.lock
           git commit -m '[dependabot skip] Fix yarn.lock'
-          git push
+          git push --force
