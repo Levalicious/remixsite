@@ -54,8 +54,6 @@ jobs:
 
       - run: yarn install --mode=skip-build
 
-      - run: yarn dedupe
-
       - name: Commit yarn.lock
         run: |
           git config user.name "dependabot-fix"
